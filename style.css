@@ -29,3 +29,44 @@ nav {
     color: antiquewhite;
     text-color : black;
 } */
+
+/* Main section start */
+
+main section {
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.contact-btn {
+    font-size: 15px;
+    /* color: black;
+     */
+    font-weight: 800;
+    background-color: black;
+    /* border: 1px solid black; */
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+.container {
+    background-image: url("assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    color: black; 
+    padding: 20px; 
+}
+
+.container p {
+    margin: 10px 0;
+}
+
+
+
+/* main Section End */

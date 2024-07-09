@@ -49,24 +49,62 @@ main section {
     border-radius: 5px;
 }
 
+.banner-description {
+    width: 1000px;
+}
+
+.web-banner-description {
+    width: 650px;
+    /* text-align: center; */
+}
+.web-banner-descriptions {
+    /* width: 650px; */
+    text-align: center;
+}
+
 .container {
     background-image: url("assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px; 
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
-    text-align: center; 
-    color: black; 
-    padding: 20px; 
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 20px;
 }
 
 .container p {
     margin: 10px 0;
 }
 
-
-
 /* main Section End */
+
+
+/* Why Web Dev Start*/
+
+.web-container {
+    background-color: rgb(251, 255, 255);
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.web-dev-heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.about-item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card-1 {
+    background-color: white;
+}
+
+/* Why Web Dev End */

@@ -47,8 +47,14 @@ main section {
     background-color: black;
     /* border: 1px solid black; */
     color: white;
-    padding: 18px 35px;
+    padding: 20px 30px;
     border-radius: 5px;
+}
+
+.contact-btn a{
+    text-decoration: none;
+    color: #e5f1ff;
+    font-size: 1rem;
 }
 
 .banner-description {

@@ -214,7 +214,6 @@ main section {
     background-color: rgb(251, 255, 255);
     max-width: 1360px;
     margin: 0 auto;
-
     margin-top: 60px;
 }
 
@@ -292,3 +291,18 @@ main section {
 
 
 /* Support Section End */
+
+
+/* Footer section start */
+
+.footer-section {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons {
+    justify-content: space-around;
+}
+
+/* Footer section end */

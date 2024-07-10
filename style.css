@@ -11,6 +11,10 @@
     background-color: #FFFFFF;
 }
 
+.section-title {
+    font-size: 40px;
+}
+
 nav {
     display: flex;
     align-items: center;

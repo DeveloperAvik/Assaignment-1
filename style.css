@@ -57,6 +57,7 @@ main section {
     width: 650px;
     /* text-align: center; */
 }
+
 .web-banner-descriptions {
     /* width: 650px; */
     text-align: center;
@@ -112,12 +113,12 @@ main section {
 
 /*  My inspiration start */
 
-.insparetion-container h1{
+.insparetion-container h1 {
     text-align: center;
     font-size: 2rem;
 }
 
-.insparetion-container p{
+.insparetion-container p {
     text-align: center;
     font-size: 1rem;
 }
@@ -129,3 +130,102 @@ main section {
 }
 
 /* My insparetion end */
+
+
+
+/* My target start*/
+
+.card-html {
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(244, 233, 233);
+    background-color: rgb(242, 221, 182);
+}
+
+.card-css {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(189, 189, 237);
+}
+
+.card-js {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgb(243, 243, 108);
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    /* width: 80%; */
+    gap: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.html-card {
+    background-color: #ffe5e5;
+}
+
+.css-card {
+    background-color: #e5f1ff;
+}
+
+.js-card {
+    background-color: #fff9e5;
+}
+
+.target {
+    background-color: rgb(251, 255, 255);
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+
+.target h1 {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.target p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* My target end */
